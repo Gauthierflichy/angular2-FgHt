@@ -8,10 +8,10 @@ import { CarteComponent } from './carte/carte.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
-    AppComponent,
-    CarteComponent
+    CarteComponent,
     AppComponent,
     NavbarComponent,
     FooterComponent
