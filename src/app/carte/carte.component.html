@@ -1,0 +1,12 @@
+<div class="container">
+  <div *ngFor="let user of users">
+    <div class="demo-card-image mdl-card mdl-shadow--2dp">
+      <img class="img" src="{{ user.imgUrl }}" alt="{{ user.name }}">
+      <div class="mdl-card__title mdl-card--expand">
+      </div>
+      <div class="mdl-card__actions">
+        <span class="demo-card-image__filename title">{{ user.firstName }} <strong>{{ user.lastName }}</strong></span>
+      </div>
+    </div>
+  </div>
+</div>
