@@ -1,7 +1,16 @@
 .mdl-layout__tab-bar {
     height: inherit;
+    width: inherit;
 }
 h3 {
     font-size: 1.5em;
     padding: 4% 0 4% 0;
+}
+.mdl-layout__tab-bar a {
+    transition-duration: 1s;
+}
+.mdl-layout__tab-bar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+
 }
