@@ -1,3 +1,7 @@
 .mdl-layout__tab-bar {
     height: inherit;
 }
+h3 {
+    font-size: 1.5em;
+    padding: 4% 0 4% 0;
+}
